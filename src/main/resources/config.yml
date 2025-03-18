@@ -1,0 +1,28 @@
+#Author: AntTheAntster
+
+#Menu Settings
+Menu:
+  Size: 27
+  Buttons:
+    Common:
+      Type: "GREEN_TERRACOTTA" #What item/block will be used to represent the button?
+      Name: "&fCommon Enchant" #Name of the button in the GUI (Supports Colour Coding)
+      Slot: 10 #Which Slot in the GUI will this button be placed in?
+      Cost: 15 #Cost in Levels
+    Uncommon:
+      Type: "YELLOW_TERRACOTTA" #What item/block will be used to represent the button?
+      Name: "&fUncommon Enchant" #Name of the button in the GUI (Supports Colour Coding)
+      Slot: 12 #Which Slot in the GUI will this button be placed in?
+      Cost: 30 #Cost in Levels
+    Rare:
+      Type: "RED_TERRACOTTA" #What item/block will be used to represent the button?
+      Name: "&fRare Enchant" #Name of the button in the GUI (Supports Colour Coding)
+      Slot: 14 #Which Slot in the GUI will this button be placed in?
+      Cost: 45 #Cost in Levels
+
+#Enchantment Settings
+Enchantments:
+  Beast:
+    Name: "&4Beast {level}" #{level} placeholder for the level of the enchantment to be included in the name
+    Rarity: "Rare"
+    Level: 2 #Max level of the enchantment

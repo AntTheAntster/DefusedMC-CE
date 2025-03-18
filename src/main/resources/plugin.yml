@@ -1,0 +1,8 @@
+main: uk.co.anttheantster.defusedmcce.DefusedMCCE
+Name: DefusedMC CE
+version: 1.0
+author: AntTheAntster
+commands:
+  customenchant:
+    description: Command to bring up the CE Menu
+    aliases: [ce]
